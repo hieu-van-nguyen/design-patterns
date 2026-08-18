@@ -6,7 +6,7 @@ public class Singleton {
      * making changes immediately visible to all threads
      */
     private volatile static Singleton uniqueInstance;
-    private String data;
+    private final String data;
 
     private Singleton(String data){
         this.data = data;
@@ -14,6 +14,7 @@ public class Singleton {
 
     // double check locking
     public static Singleton getInstance(String value) {
+
         if (uniqueInstance == null) {
             synchronized (Singleton.class) {
                 if (uniqueInstance == null) {
