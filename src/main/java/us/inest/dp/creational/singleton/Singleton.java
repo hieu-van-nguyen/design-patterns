@@ -1,4 +1,4 @@
-package us.inest.dp.singleton;
+package us.inest.dp.creational.singleton;
 
 public class Singleton {
     /*
