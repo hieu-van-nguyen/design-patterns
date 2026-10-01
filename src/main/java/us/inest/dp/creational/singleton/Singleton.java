@@ -28,4 +28,13 @@ public class Singleton {
     public void display() {
         System.out.println("Instance Data: " + data);
     }
+
+    public String getData() {
+        return this.data;
+    }
+
+    // For testing purposes to reset the singleton state
+    static void resetInstance() {
+        uniqueInstance = null;
+    }
 }
