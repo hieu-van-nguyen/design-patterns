@@ -13,7 +13,7 @@ Implementations of classic software design patterns to demonstrate structural, c
 Patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
 - **Abstract Factory**: Provides an interface for creating families of related or dependent objects.
 - **Builder**: Separates construction of a complex object from its representation.
-- **Factory Method**: Defines an interface for creating an object, but lets subclasses decide which class to instantiate.
+- **Factory Method**: Defines an interface for creating an object, but lets subclasses decide which class to instantiate. ([Details](docs/design-patterns/creational/factory-method.md))
 - **Prototype**: Specifies the kinds of objects to create using a prototypical instance.
 - **Singleton**: Ensures a class has only one instance and provides a global point of access to it. ([Details](docs/patterns/creational/singleton.md))
 

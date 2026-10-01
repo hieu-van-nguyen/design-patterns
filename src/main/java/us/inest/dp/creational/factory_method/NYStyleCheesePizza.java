@@ -1,4 +1,4 @@
-package us.inest.dp.factory_method;
+package us.inest.dp.creational.factory_method;
 
 public class NYStyleCheesePizza extends Pizza {
     public NYStyleCheesePizza() {

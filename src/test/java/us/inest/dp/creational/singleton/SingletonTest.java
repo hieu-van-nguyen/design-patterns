@@ -1,16 +1,11 @@
 package us.inest.dp.creational.singleton;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import java.util.concurrent.*;
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-// @Disabled("Entire class disabled for maintenance")
 public class SingletonTest {
 
     @BeforeEach
